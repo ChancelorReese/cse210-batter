@@ -11,9 +11,11 @@ from game.input_service import InputService
 from game.output_service import OutputService
 from game.physics_service import PhysicsService
 from game.audio_service import AudioService
+from game.brick import Brick
+
+
 
 # TODO: Add imports similar to the following when you create these classes
-# from game.brick import Brick
 # from game.ball import Ball
 # from game.paddle import Paddle
 # from game.control_actors_action import ControlActorsAction
@@ -26,8 +28,12 @@ def main():
     # create the cast {key: tag, value: list}
     cast = {}
 
+
+
     cast["bricks"] = []
     # TODO: Create bricks here and add them to the list
+        
+
 
     cast["balls"] = []
     # TODO: Create a ball here and add it to the list
